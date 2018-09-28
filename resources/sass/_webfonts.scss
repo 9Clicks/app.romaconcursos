@@ -1,0 +1,32 @@
+
+// Fonts Google Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Caveat|Great+Vibes|Lato|Permanent+Marker|Poiret+One|Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Quicksand');
+
+//font-family: 'Lato', sans-serif;
+//font-family: 'Raleway', sans-serif;
+//font-family: 'Abril Fatface', cursive;
+//font-family: 'Permanent Marker', cursive;
+//font-family: 'Great Vibes', cursive;
+//font-family: 'Poiret One', cursive;
+//font-family: 'Caveat', cursive;
+
+@mixin poiretOne{
+  font-family: 'Poiret One', cursive;
+}
+
+@mixin font_lato{
+  font-family: 'Lato', sans-serif;
+}
+
+@mixin quicksand{
+  font-family: 'Quicksand', sans-serif
+}
+
+@mixin font_canal{
+  font-family: 'Abril Fatface', cursive;
+}

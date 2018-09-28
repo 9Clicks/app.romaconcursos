@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Caveat|Great+Vibes|Lato|Permanent+Marker|Poiret+One|Raleway);@import url(https://fonts.googleapis.com/css?family=Abel|Quicksand);#tpl_top {
+  background: #10489a;
+  height: 15px;
+}
+
+#tpl_restrict {
+  font-size: 11px;
+  text-align: right;
+}
+
+#tpl_icones a {
+  font-size: 32px;
+  float: right;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #10489a;
+}
+
+#tpl_icones a:hover {
+  color: #fdbf28;
+}
+
+#nav-style {
+  background: #10489a;
+  border-top: solid 5px #fdbf28;
+}
+
+#nav-menus li {
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#nav-menus li a {
+  color: #fdbf28;
+}
+
+#nav-menus li a:hover {
+  color: aliceblue;
+}
+
+#dropdow-itens {
+  height: 50px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+#dropdow-itens:hover {
+  background: #10489a;
+  color: #fdbf28;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+#tpl_title_pg {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  color: #10489a;
+  border-bottom: solid #ffc107 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#tpl_icon_detalhes {
+  font-size: 62px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#tpl_icon_detalhes p {
+  font-size: 18px;
+}
+
+#tpl_show_dt {
+  color: #10489a;
+  text-decoration: none;
+}
+
+#tpl_show_dt:hover {
+  color: #fdbf28;
+  text-decoration: none;
+}
+
+#row_style {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#tpl_pre-footer {
+  background: #10489a;
+  border-top: solid 5px #fdbf28;
+}
+
+#footer {
+  background: #fdbf28;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#slogan h2 {
+  color: #ffffff;
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.link-email a {
+  color: #fdbf28;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-email a:hover {
+  color: #1d2124;
+  text-decoration: none;
+}
+
+#local-info {
+  color: #f8f9fa;
+}
+
+#tpl_title_empresa {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #5a6268;
+}
+
+#tpl_title_curso {
+  font-family: 'Quicksand', sans-serif;
+  border-bottom: solid 5px #10489a;
+}
+
+#card-button {
+  color: #10489a;
+  text-decoration: none;
+  height: 60px;
+}
+
+#card-button:hover {
+  color: #fdbf28;
+  cursor: pointer;
+}
+
+#card-desc {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #999999;
+  text-align: justify;
+}
+
+#card-compra {
+  background: #10489a;
+  color: #f8f9fa;
+  height: 85px;
+  line-height: 65px;
+  font-size: 26px;
+}
+
+#card-link {
+  background: #fdbf28;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+#card-link a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h5 a {
+  color: #fdbf28;
+  text-decoration: none;
+}
+
+h5 a:hover {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+#tpl_title_video {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#tpl_modal_title {
+  color: #10489a;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#tpl_video_categ {
+  font-size: 12px;
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#tpl_link_canal {
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  color: #b8c2cc;
+}
+
+#tpl_form_font {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#tpl_content_form {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#tpl_login {
+  margin-top: 150px;
+}
+
+#tpl_panel_login {
+  background: #10489a;
+  text-align: center;
+  color: #f8f9fa;
+}
+
+#tpl_link_reset {
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#tpl_footer_login {
+  background: #fdbf28;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#tpl_footer_login a {
+  text-decoration: none;
+}
+

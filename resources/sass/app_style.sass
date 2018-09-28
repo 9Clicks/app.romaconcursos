@@ -1,0 +1,218 @@
+// Web Fonts
+@import 'webfonts'
+
+// Variables
+@import 'variables'
+
+// Defines
+@import 'define'
+
+#tpl_top
+  @include bg_azul
+  height: 15px
+
+#tpl_restrict
+  font-size: 11px
+  text-align: right
+
+#tpl_icones a
+  font-size: 32px
+  float: right
+  padding-right: 10px
+  text-decoration: none
+  @include font_azul
+
+#tpl_icones a:hover
+  @include font_amarelo
+
+#nav-style
+  @include bg_azul
+  @include border_top_am
+
+#nav-menus li
+  font-size: 17px
+  padding-left: 10px
+  padding-right: 10px
+  @include quicksand
+
+#nav-menus li a
+  @include font_amarelo
+
+#nav-menus li a:hover
+  color: aliceblue
+
+#dropdow-itens
+  height: 50px
+  line-height: 40px
+  font-weight: bold
+
+#dropdow-itens:hover
+  @include bg_azul
+  @include font_amarelo
+
+// Drop Down Automatico
+.dropdown:hover>.dropdown-menu
+  display: block
+
+#tpl_title_pg
+  font-size: 24px
+  font-weight: bold
+  @include quicksand
+  @include font_azul
+  border-bottom: solid #ffc107 5px
+  margin-top: 15px
+  margin-bottom: 10px
+
+#tpl_icon_detalhes
+  font-size: 62px
+  text-align: center
+  text-decoration: none
+
+
+#tpl_icon_detalhes p
+  font-size: 18px
+
+#tpl_show_dt
+  @include font_azul
+  text-decoration: none
+
+#tpl_show_dt:hover
+  @include font_amarelo
+  text-decoration: none
+
+#row_style
+  @include borda_10
+
+#tpl_pre-footer
+  @include bg_azul
+  @include border_top_am
+
+#footer
+  @include bg_amarelo
+  text-align: center
+  font-size: 13px
+  @include quicksand
+  padding-top: 15px
+  padding-bottom: 15px
+
+#footer a
+  text-decoration: none
+
+#slogan h2
+  color: #ffffff
+  @include poiretOne
+  font-size: 24px
+  text-align: center
+  font-weight: bold
+
+.link-email a
+  @include font_amarelo
+  text-decoration: none
+  cursor: pointer
+
+.link-email a:hover
+  color: #1d2124
+  text-decoration: none
+
+#local-info
+  color: #f8f9fa
+
+#tpl_title_empresa
+  @include quicksand
+  font-weight: bold
+  color: #5a6268
+
+#tpl_title_curso
+  @include quicksand
+  @include border_bt_az
+
+#card-button
+  @include font_azul
+  text-decoration: none
+  height: 60px
+
+#card-button:hover
+  @include font_amarelo
+  cursor: pointer
+
+#card-desc
+  @include quicksand
+  font-size: 16px
+  color: #999999
+  text-align: justify
+
+#card-compra
+  @include bg_azul
+  color: #f8f9fa
+  height: 85px
+  line-height: 65px
+  font-size: 26px
+
+#card-link
+  @include bg_amarelo
+  padding-top: 20px
+  padding-bottom: 20px
+  @include quicksand
+  font-size: 18px
+
+#card-link a
+  color: #000000
+  text-decoration: none
+
+// Style H5
+h5 a
+  @include font_amarelo
+  text-decoration: none
+
+h5 a:hover
+  color: greenyellow
+  text-decoration: none
+
+#tpl_title_video
+  text-align: center
+  @include quicksand
+
+#tpl_modal_title
+  @include font_azul
+  @include quicksand
+
+#tpl_video_categ
+  font-size: 12px
+  text-align: right
+  @include quicksand
+
+#tpl_link_canal
+  text-align: right
+  @include quicksand
+  color: #b8c2cc
+
+#tpl_form_font
+  @include quicksand
+
+#tpl_content_form
+  @include borda_10
+
+#tpl_login
+  margin-top: 150px
+
+#tpl_panel_login
+  @include bg_azul
+  text-align: center
+  color: #f8f9fa
+
+#tpl_link_reset
+  text-align: right
+  @include quicksand
+
+#tpl_footer_login
+  @include bg_amarelo
+  position: fixed
+  bottom: 0
+  text-align: center
+  font-size: 13px
+  @include quicksand
+  padding-top: 15px
+  padding-bottom: 15px
+
+#tpl_footer_login a
+  text-decoration: none
