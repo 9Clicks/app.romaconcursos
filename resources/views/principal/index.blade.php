@@ -48,7 +48,7 @@
                     <div class="card-footer">
                         <a href="{{ url('/preparatorio') }}/{{ $curso->tbl_slug }}/detalhes/{{ $curso->id }}" class="btn btn-warning btn-lg btn-block"><i class="fa fa-info-circle" aria-hidden="true"></i> Saiba Mais...</a>
                     </div>
-                </div>
+                </div>tkljkj
             </div>
 
         @endforeach
