@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Login - Roma Concursos</title>
+    <title>Login - {{ $app_configs->tbl_title }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/bootstrap.js') }}" defer></script>
