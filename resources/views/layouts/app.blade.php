@@ -4,22 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ asset('themes/imgs/img_icon_roma.png') }}" />
-    <!-- CSRF Token -->
+
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Login - {{ $app_configs->tbl_title }}</title>
 
-    <!-- Scripts -->
     <script src="{{ asset('js/bootstrap.js') }}" defer></script>
     <script src="{{ asset('js/bundle.js') }}" defer></script>
     <script src="{{ asset('js/jQuery_slim.js') }}" defer></script>
     <script src="{{ asset('js/lightbox.js') }}" defer></script>
 
-    <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
-    <!-- Styles -->
     <link href="{{ asset('css/app_style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/lightbox.css') }}" rel="stylesheet">
